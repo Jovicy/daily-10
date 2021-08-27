@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400px;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+header nav ul li {
+    list-style: none;
+    padding: 1em 2em;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 5px auto 0 auto;
+}
+
+header nav ul li a:hover:after{
+    visibility: visible;
+}
+
+.logo {
+    flex: 1;
+    color: #fff;
+    font-size: 32px;
+}
+.hero-main {
+    background-image: url('images/desktop/image-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.hero-text {
+    display: flex;
+    padding: 1em 4.4em;
+    align-items: center;
+    font-weight: 400;
+    height: 40vh;
+    margin-top: 75px;
+}
+.hero-box {
+    border: 1px solid #fff;
+    width: 43%;
+    text-align: left;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+}
+.hero-box h1 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+    width: 300px;
+    padding: 1em 1em;
+    letter-spacing: 4px;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.feature-image {
+    width: 50%;
+    padding: 7em 4.3em;
+}
+.feature-text {
+    background-color: #fff;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10em 4em;
+    text-align: left;
+    gap: 10px;
+    margin-top: 200px;
+}
+.feature-text h1 {
+    font-size: 32px;
+    color: #000;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+.feature-text p {
+    width: 550px;
+    line-height: 17px;
+}
+.but {
+    border-radius: 3px;
+    padding: 10px 35px;
+    color: #333;
+    border: 1px solid #333;
+    background: #fff;
+}
+.but:hover {
+    background: black;
+    color: #fff;
+}
+.creation-text {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 4.3em;
+}
+.creation-text h1 {
+    flex: 1;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 4.3em;
+    gap: 15px;
+}
+.galleria {
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+}
+
+.slideshow-gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+}
+.gallery img {
+    width: 115%;
+}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background: black;
+    font-size: 16px;
+}
+footer nav ul li {
+    list-style: none;
+    padding: 3em 1em;
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+footer nav ul li a:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 5px auto 0 auto;
+}
+
+footer nav ul li a:hover:after{
+    visibility: visible;
+}
+.log {
+    flex: 1;
+    color: #fff;
+    font-size: 20px;
+    padding: 2.5em 3.3em;
+}
+.copyright {
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    width: 115%;
+    height: 100%;
+    color: #f1ece6;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.image {
+    position: relative;
+}
+.image:hover .overlay {
+    background: #ffffffa6;
+    color: #000;
+}
+.extra {
+    padding: 1em 3.2em;
+}
